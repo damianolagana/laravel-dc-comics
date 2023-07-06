@@ -14,7 +14,7 @@
                 <textarea class="form-control" name="description" id="" cols="30" rows="10"></textarea>
 
                 <label class="pt-3" for="name">image</label>
-                <input class="form-control" type="text" name="image">
+                <input class="form-control" type="text" name="thumb">
 
                 <label class="pt-3" for="name">price</label>
                 <input class="form-control" type="text" name="price">
@@ -28,7 +28,7 @@
                 <label class="pt-3" for="name">type</label>
                 <input class="form-control" type="text" name="type">
 
-                <input class="form-control mt-4" type="submit" value="Invia">
+                <input class="form-control mt-4 btn btn-primary" type="submit" value="Invia">
                 
             </form>
         </div>
