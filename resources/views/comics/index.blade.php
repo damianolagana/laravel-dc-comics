@@ -7,7 +7,7 @@
         <div class="d-flex flex-wrap">
             @foreach ($comics as $comic)
                 <div class="w-25 p-3 border border-2">
-                    <h4 class="text-center"><a href="{{route("comics.show",1)}}">{{$comic->title}}</a></h4>
+                    <h4 class="text-center"><a href="{{route("comics.show",$comic->id)}}">{{$comic->title}}</a></h4>
                     <div class="text-center imgBox">
                         <img class="w-75" src="{{$comic->thumb}}" alt="">
                     </div>
