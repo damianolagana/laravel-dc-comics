@@ -4,6 +4,9 @@
 <div class="container my-3">
     <h1>DC Comics</h1>
     <div class="row g-4">
+        <div>
+            <a href="{{route("comics.create")}}" class="btn btn-primary">Create Comic Book</a>
+        </div>
         <div class="d-flex flex-wrap">
             @foreach ($comics as $comic)
                 <div class="w-25 p-3 border border-2">
